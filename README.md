@@ -10,15 +10,15 @@ amount of numbers that are known at the beginning of the puzzle and enters each 
 
 coordinates in the console. After this recursive function is called. It moves along cells trying all the possible number
 
-combinations and while doing so checks if the current board conforms with the rules of the sudoku puzzle. String values
+combinations and while doing so checks if the current board conforms with the rules of the sudoku puzzle.
 
-in the sudoku matrix represent numbers given at the beginning of the program by the user and are not modified
+String values in the sudoku matrix represent numbers given at the beginning of the program by the user and are not
 
-throughout the recursion. This enables the recursive function to check every single cell of the sudoku board. At the
+modified throughout the recursion. This enables the recursive function to check every single cell of the sudoku board.
 
-end of the program either a solution is found and shown to the user in the console or a message is shown saying no
+At the end of the program either a solution is found and shown to the user in the console or a message is shown
 
-solution is possible.
+saying no solution is possible.
 
 ### Prerequisites
 
@@ -26,11 +26,11 @@ An IDE or text editor to run the python code.
 
 ## Running the tests
 
-At the beginning of the program the player is asked how many numbers are known, what these numbers and their locations
+At the beginning of the program the player is asked how many numbers are known, what these numbers and their
 
-are. Numbers and their coordinates should be entered in two separate lines. Coordinates should be in the following
+locations are. Numbers and their coordinates should be entered in two separate lines. Coordinates should be in the
 
-format:
+following format:
 
 - a 4
 
