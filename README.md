@@ -4,19 +4,21 @@ Python program that recursively finds missing numbers on the sudoku board and pr
 
 ## How It Works
 
-Program starts by creating a matrix full of zeros representing an empty sudoku puzzle board. The player enters the amount of
+Program starts by creating a matrix full of zeros representing an empty sudoku puzzle board. The player enters the 
 
-numbers that are known at the beginning of the puzzle and enters each number with its corresponding coordinates in the console.
+amount of numbers that are known at the beginning of the puzzle and enters each number with its corresponding 
 
-After this recursive function is called. It moves along cells trying all the possible number combinations and while doing so
+coordinates in the console. After this recursive function is called. It moves along cells trying all the possible number
 
-checks if the current board conforms with the rules of the sudoku puzzle. String values in the sudoku matrix represent numbers
+combinations and while doing so checks if the current board conforms with the rules of the sudoku puzzle. String values 
 
-given at the beginning of the program by the user and are not modified throughout the recursion. This enables the recursive function
+in the sudoku matrix represent numbers given at the beginning of the program by the user and are not modified throughout
 
-to check every single cell of the sudoku board. At the end of the program either a solution is found and shown to the user in the console
+the recursion. This enables the recursive function to check every single cell of the sudoku board. At the end of the 
 
-or a message is shown saying no solution is possible.
+program either a solution is found and shown to the user in the console or a message is shown saying no solution is 
+
+possible.
 
 ### Prerequisites
 
@@ -24,9 +26,11 @@ An IDE or text editor to run the python code.
 
 ## Running the tests
 
-At the beginning of the program the player is asked how many numbers are known, what these numbers and their locations are.
+At the beginning of the program the player is asked how many numbers are known, what these numbers and their locations 
 
-Numbers and their coordinates should be entered in two separate lines. Coordinates should be in the following format:
+are. Numbers and their coordinates should be entered in two separate lines. Coordinates should be in the following 
+
+format:
 
 - a 4
 
